@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matematica</title>
     <link rel="stylesheet" href="../CSS/StyleMat.css">
+    <script src="../JavaScript/ScriptMat.js"></script>
 </head>
 <body>
     <header class="Header">
@@ -21,57 +22,69 @@
     <!--Separação 01-->
 
     <section class="Separation">
-        <h2>1º ano</h2>
+        <h2 id="Ano">0º Ano</h2>
+    </section>
+
+    <section class="Separation">
+        <h2>1º Trimestre</h2>
+
+        <select name="" id="Anos">
+            <Option value="opcao1">1º Ano</Option>
+            <Option value="opcao2">2º Ano</Option>
+            <Option value="opcao3">3º Ano</Option>
+        </select>
+        <button onclick="Ano()">Aplicar</button>
+
     </section>
 
     <!--Atividade 01-->
 
-    <section class="Atv1">
+    <section class="Atv">
         <div>
-            <img src="../assets/Mat/trignometria.webp" alt="">
+            <img id="Atv01_Img" src="../assets/Test.jpg" alt="">
             <div>
-                <h3>Triângulos: razões trigonométricas, lei dos senos e cossenos.</h3>
-                <p>Nessa atividade eu fiz um mapa conceitual sobre um capitulo da geekie one</p>
-                <a href="https://docs.google.com/document/d/1PXD-ZBnWOph8oicQ852t4lbJfIwvB6UEubr4K8pDIvo/edit?usp=sharing" target="_blank">Atividade</a>
+                <h3 id="Atv01_Titulo">Selecione Um Ano</h3>
+                <p id="Atv01_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv01_A" href="" target="_blank">Atividade</a>
             </div>
         </div>
     </section>
     
     <!--Atividade 02-->
 
-    <section class="Atv1">
+    <section class="Atv">
         <div>
-            <img src="../assets/Mat/expressao-matematica-de-uma-proporcao-que-e-uma-igualdade-entre-razoes.jpg" alt="">
+            <img id="Atv02_Img" src="../assets/Test.jpg" alt="">
             <div>
-                <h3>Atividade razão e proporção.</h3>
-                <p>Nessa atividade tivemos que nos medir e medir um quarto e fazer uma escala proporcional</p>
-                <a href="https://docs.google.com/document/d/1UxGyJSBMmUmx4GdxXmBBgLOCnr51oRjviLW93ieqIeU/edit?usp=sharing" target="_blank">Atividade</a>
+                <h3 id="Atv02_Titulo">Selecione Um Ano</h3>
+                <p id="Atv02_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv02_A" href="" target="_blank">Atividade</a>
             </div>
         </div>
     </section>
 
     <!--Atividade 03-->
 
-    <section class="Atv1">
+    <section class="Atv">
         <div>
-            <img src="../assets/Mat/trigonometria.webp" alt="">
+            <img id="Atv03_Img" src="../assets/Test.jpg" alt="">
             <div>
-                <h3>Resumo trigonometria.</h3>
-                <p>Um resumo feito em folha.</p>
-                <a href="https://docs.google.com/document/d/1KkdfSb2CSZ67eIRFHNJzHOg7AYbz2t_s6cw7sfg6PCE/edit?usp=sharing" target="_blank">Atividade</a>
+                <h3 id="Atv03_Titulo">Selecione Um Ano</h3>
+                <p id="Atv03_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv03_A" href="" target="_blank">Atividade</a>
             </div>
         </div>
     </section>
 
     <!--Atividade 04-->
 
-    <section class="Atv1">
+    <section class="Atv">
         <div>
-            <img src="../assets/Mat/1-razao.webp" alt="">
+            <img id="Atv04_Img" src="../assets/Test.jpg" alt="">
             <div>
-                <h3>Razão.</h3>
-                <p>Um resumo de razão feito no caderno</p>
-                <a href="https://docs.google.com/document/d/1mRotVGa8gY9hdkuG8g93s9iJVlBUPGC1upQLgWL1tIo/edit?usp=sharing" target="_blank">Atividade</a>
+                <h3 id="Atv04_Titulo">Selecione Um Ano</h3>
+                <p id="Atv04_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv04_A" href="" target="_blank">Atividade</a>
             </div>
         </div>
     </section>
@@ -79,63 +92,123 @@
     <!--Separação 02-->
 
     <section class="Separation">
-        <h2>2º ano</h2>
+        <h2>2º Trimestre</h2>
     </section>
     
-    <!--Atividade 01-->
+    <!--Atividade 05-->
 
-    <section class="Atv1">
+    <section class="Atv">
         <div>
-            <img src="../assets/Mat/trignometria.webp" alt="">
+            <img id="Atv05_Img" src="../assets/Test.jpg" alt="">
             <div>
-                <h3>Triângulos: razões trigonométricas, lei dos senos e cossenos.</h3>
-                <p>Nessa atividade eu fiz um mapa conceitual sobre um capitulo da geekie one</p>
-                <a href="https://docs.google.com/document/d/1PXD-ZBnWOph8oicQ852t4lbJfIwvB6UEubr4K8pDIvo/edit?usp=sharing" target="_blank">Atividade</a>
+                <h3 id="Atv05_Titulo">Selecione Um Ano</h3>
+                <p id="Atv05_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv05_A" href="" target="_blank">Atividade</a>
             </div>
         </div>
     </section>
     
-    <!--Atividade 02-->
+    <!--Atividade 06-->
 
-    <section class="Atv1">
+    <section class="Atv">
         <div>
-            <img src="../assets/Mat/expressao-matematica-de-uma-proporcao-que-e-uma-igualdade-entre-razoes.jpg" alt="">
+            <img id="Atv06_Img" src="../assets/Test.jpg" alt="">
             <div>
-                <h3>Atividade razão e proporção.</h3>
-                <p>Nessa atividade tivemos que nos medir e medir um quarto e fazer uma escala proporcional</p>
-                <a href="https://docs.google.com/document/d/1UxGyJSBMmUmx4GdxXmBBgLOCnr51oRjviLW93ieqIeU/edit?usp=sharing" target="_blank">Atividade</a>
+                <h3 id="Atv06_Titulo">Selecione Um Ano</h3>
+                <p id="Atv06_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv06_A" href="" target="_blank">Atividade</a>
             </div>
         </div>
     </section>
 
-    <!--Atividade 03-->
+    <!--Atividade 07-->
 
-    <section class="Atv1">
+    <section class="Atv">
         <div>
-            <img src="../assets/Mat/trigonometria.webp" alt="">
+            <img id="Atv07_Img" src="../assets/Test.jpg" alt="">
             <div>
-                <h3>Resumo trigonometria.</h3>
-                <p>Um resumo feito em folha.</p>
-                <a href="https://docs.google.com/document/d/1KkdfSb2CSZ67eIRFHNJzHOg7AYbz2t_s6cw7sfg6PCE/edit?usp=sharing" target="_blank">Atividade</a>
+                <h3 id="Atv07_Titulo">Selecione Um Ano</h3>
+                <p id="Atv07_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv07_A" href="" target="_blank">Atividade</a>
             </div>
         </div>
     </section>
 
-    <!--Atividade 04-->
+    <!--Atividade 08-->
 
-    <section class="Atv1">
+    <section class="Atv">
         <div>
-            <img src="../assets/Mat/1-razao.webp" alt="">
+            <img id="Atv08_Img" src="../assets/Test.jpg" alt="">
             <div>
-                <h3>Razão.</h3>
-                <p>Um resumo de razão feito no caderno</p>
-                <a href="https://docs.google.com/document/d/1mRotVGa8gY9hdkuG8g93s9iJVlBUPGC1upQLgWL1tIo/edit?usp=sharing" target="_blank">Atividade</a>
+                <h3 id="Atv08_Titulo">Selecione Um Ano</h3>
+                <p id="Atv08_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv08_A" href="" target="_blank">Atividade</a>
+            </div>
+        </div>
+    </section>
+    
+    <!--Separação 03-->
+
+    <section class="Separation">
+        <h2>3º Trimestre</h2>
+    </section>
+
+    <!--Atividade 09-->
+
+    <section class="Atv">
+        <div>
+            <img id="Atv09_Img" src="../assets/Test.jpg" alt="">
+            <div>
+                <h3 id="Atv09_Titulo">Selecione Um Ano</h3>
+                <p id="Atv09_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv09_A" href="" target="_blank">Atividade</a>
+            </div>
+        </div>
+    </section>
+    
+    <!--Atividade 10-->
+
+    <section class="Atv">
+        <div>
+            <img id="Atv10_Img" src="../assets/Test.jpg" alt="">
+            <div>
+                <h3 id="Atv10_Titulo">Selecione Um Ano</h3>
+                <p id="Atv10_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv10_A" href="" target="_blank">Atividade</a>
+            </div>
+        </div>
+    </section>
+    
+    <!--Atividade 11-->
+
+    <section class="Atv">
+        <div>
+            <img id="Atv11_Img" src="../assets/Test.jpg" alt="">
+            <div>
+                <h3 id="Atv11_Titulo">Selecione Um Ano</h3>
+                <p id="Atv11_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv11_A" href="" target="_blank">Atividade</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Atividade 12-->
+
+    <section class="Atv">
+        <div>
+            <img id="Atv12_Img" src="../assets/Test.jpg" alt="">
+            <div>
+                <h3 id="Atv12_Titulo">Selecione Um Ano</h3>
+                <p id="Atv12_Paragrafo">Seleciona Um Ano</p>
+                <a id="Atv12_A" href="" target="_blank">Atividade</a>
             </div>
         </div>
     </section>
 
 
-    <!--Footer Massa--> 
+
+
+    <!--Footer--> 
 
     <footer class="Footer">
         <p>By P.Silva</p>

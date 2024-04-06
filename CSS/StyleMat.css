@@ -38,13 +38,13 @@ body{
     margin-top: 20px;
 }
 
-.Atv1{
+.Atv{
     justify-content: center;
     text-align: center;
     display: flex;
 }
 
-.Atv1 div{
+.Atv div{
     background-color: #66c0f4;
     display: flex;
     padding: 20px;
@@ -54,22 +54,22 @@ body{
     
 }
 
-.Atv1 div h3{
+.Atv div h3{
     order: 1;
 }
 
-.Atv1 div img{
+.Atv div img{
     height: 200px;
     width: 200px;
 }
 
-.Atv1 div p{
+.Atv div p{
     order: 2;
     word-wrap: break-word;
     
 }
 
-.Atv1 div a{
+.Atv div a{
     order: 3;
     justify-content: center;
     display: flex;
@@ -78,12 +78,12 @@ body{
 }
 
 
-.Atv1 div a:hover{
+.Atv div a:hover{
     color: #2a475e;
 
 }
 
-.Atv1 div div{
+.Atv div div{
     flex-direction: column;
 }
 
