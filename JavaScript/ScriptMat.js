@@ -2,66 +2,6 @@ function Ano(){
     var Anos = document.getElementById("Anos")
     var option = Anos.value
 
-    var Ano = ""
-    var Atv01_Titulo = ""
-    var Atv01_Paragrafo = ""
-    var Atv01_Img = ""
-    var Atv01_A = ""
-
-    var Atv02_Titulo = ""
-    var Atv02_Paragrafo = ""
-    var Atv02_Img = ""
-    var Atv02_A = ""
-
-    var Atv03_Titulo = ""
-    var Atv03_Paragrafo = ""
-    var Atv03_Img = ""
-    var Atv03_A = ""
-
-    var Atv04_Titulo = ""
-    var Atv04_Paragrafo = ""
-    var Atv04_Img = ""
-    var Atv04_A = ""
-
-    var Atv05_Titulo = ""
-    var Atv05_Paragrafo = ""
-    var Atv05_Img = ""
-    var Atv05_A = ""
-
-    var Atv06_Titulo = ""
-    var Atv06_Paragrafo = ""
-    var Atv06_Img = ""
-    var Atv06_A = ""
-
-    var Atv07_Titulo = ""
-    var Atv07_Paragrafo = "."
-    var Atv07_Img = ""
-    var Atv07_A = ""
-
-    var Atv08_Titulo = ""
-    var Atv08_Paragrafo = ""
-    var Atv08_Img = ""
-    var Atv08_A = ""
-
-    var Atv09_Titulo = ""
-    var Atv09_Paragrafo = ""
-    var Atv09_Img = ""
-    var Atv09_A = ""
-
-    var Atv10_Titulo = ""
-    var Atv10_Paragrafo = ""
-    var Atv10_Img = ""
-    var Atv10_A = ""
-
-    var Atv11_Titulo = ""
-    var Atv11_Paragrafo = ""
-    var Atv11_Img = ""
-    var Atv11_A = ""
-
-    var Atv12_Titulo = ""
-    var Atv12_Paragrafo = ""
-    var Atv12_Img = ""
-    var Atv12_A = ""
 
 
     //-----------------------------------------------------------------------------------------------------------------------------
@@ -226,7 +166,7 @@ function Ano(){
     document.getElementById("Atv12_Img").src = Atv12_Img
     document.getElementById("Atv12_A").href = Atv12_A
 
-    }else if(option == opcao2){
+    }else if(option == "opcao2"){
 
         var Ano = "2º Ano"
         var Atv01_Titulo = "ewbhgviujs."
@@ -392,10 +332,3 @@ function Ano(){
 
 //-------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-    
-
-function aplicar(){
-    alert("foi")
-}
