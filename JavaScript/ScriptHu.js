@@ -10,64 +10,64 @@ function Ano(){
     if(option == "opcao1"){
 
     var Ano = "1º Ano"
-    var Atv01_Titulo = "Triângulos: razões trigonométricas, lei dos senos e cossenos."
-    var Atv01_Paragrafo = "Nessa atividade eu fiz um mapa conceitual sobre um capitulo da geekie one."
-    var Atv01_Img = "../assets/Mat/trignometria.webp"
-    var Atv01_A = "https://docs.google.com/document/d/1PXD-ZBnWOph8oicQ852t4lbJfIwvB6UEubr4K8pDIvo/edit?usp=sharing"
+    var Atv01_Titulo = "HUMANAS - 15/03 - Fontes Históricas."
+    var Atv01_Paragrafo = "Nessa atividade tivemos que formar grupos e criar perguntas sobre as paginas 7, 8, 9, 10, 11 e 13 da geekie one."
+    var Atv01_Img = "../assets/Hu/fut.jpg"
+    var Atv01_A = "https://docs.google.com/document/d/1dKfz4ip-VS0wNNxlsWVrRWhKKCm7z24YsonHLU7FWMA/edit?usp=sharing"
 
 
-    var Atv02_Titulo = "Atividade razão e proporção."
-    var Atv02_Paragrafo = "Nessa atividade tivemos que nos medir e medir um quarto e fazer uma escala proporcional."
-    var Atv02_Img = "../assets/Mat/expressao-matematica-de-uma-proporcao-que-e-uma-igualdade-entre-razoes.jpg"
-    var Atv02_A = "https://docs.google.com/document/d/1UxGyJSBMmUmx4GdxXmBBgLOCnr51oRjviLW93ieqIeU/edit?usp=sharing"
+    var Atv02_Titulo = "HUMANAS - 30/03 - Vamos navegar no Google Earth."
+    var Atv02_Paragrafo = "HUMANAS - 30/03 - Vamos navegar no Google Earth."
+    var Atv02_Img = "../assets/Hu/paisagem.webp"
+    var Atv02_A = "https://docs.google.com/document/d/1wA_WkPIiCiFHF5mmUL9AsDkW1VVzHSghBGDAoBGCCZo/edit?usp=sharing"
 
 
-    var Atv03_Titulo = "Resumo trigonometria."
-    var Atv03_Paragrafo = "Um resumo feito em folha."
-    var Atv03_Img = "../assets/Mat/trigonometria.webp"
-    var Atv03_A = "https://docs.google.com/document/d/1KkdfSb2CSZ67eIRFHNJzHOg7AYbz2t_s6cw7sfg6PCE/edit?usp=sharing"
+    var Atv03_Titulo = "Rochas."
+    var Atv03_Paragrafo = "nessa atividade eu escrevi um pequeno texto com as informações importantes sobre a formação das rochas."
+    var Atv03_Img = "../assets/Hu/rocha.jpg"
+    var Atv03_A = "https://docs.google.com/document/d/1ZRv9WPzbqfU_kce42tccFhssZc7r-2yfHi3vwlTctIM/edit?usp=sharing"
 
 
-    var Atv04_Titulo = "Razão."
-    var Atv04_Paragrafo = "Um resumo de razão feito no caderno."
-    var Atv04_Img = "../assets/Mat/1-razao.webp"
-    var Atv04_A = "https://docs.google.com/document/d/1mRotVGa8gY9hdkuG8g93s9iJVlBUPGC1upQLgWL1tIo/edit?usp=sharing"
+    var Atv04_Titulo = "Fontes históricas."
+    var Atv04_Paragrafo = "um pequeno texto sobre fontes históricas."
+    var Atv04_Img = "../assets/Hu/historia.webp"
+    var Atv04_A = "https://docs.google.com/document/d/1g3Fb-dcg713N2-TGKGXg-k6e46UwF2O1dTRbxMQs0WE/edit?usp=sharing"
 
 
-    var Atv05_Titulo = "Função no geogebra."
-    var Atv05_Paragrafo = "nessa atividade traçamos linhas no geogebra."
-    var Atv05_Img = "../assets/Mat/geogebra.png"
-    var Atv05_A = "https://docs.google.com/document/d/14XnYSw6SR3o6r-CVaOkN9h-TVClYxufGazDRUR6dibM/edit?usp=sharing"
+    var Atv05_Titulo = "Mapas Táteis."
+    var Atv05_Paragrafo = "nessa atividade fizemos um mapa tatil de sumerios."
+    var Atv05_Img = "../assets/Hu/sumerios.jpg"
+    var Atv05_A = "https://docs.google.com/document/d/1QC6I1T7T6cgjuxUTMNRNugZi8aByxrn-qMPdPTOr7Bw/edit?usp=sharing"
 
 
-    var Atv06_Titulo = "História dos Conjuntos Numéricos."
-    var Atv06_Paragrafo = "nessa atividade fizemos a historia da nossa apresentaçao de matematica."
-    var Atv06_Img = "../assets/Mat/conjuntos.webp"
-    var Atv06_A = "https://docs.google.com/document/d/12ZCuj3pUQ0eUNYsDTaFMtMLfdY58Qq2yt9RiAGEm1hY/edit?usp=sharing"
+    var Atv06_Titulo = "Movimentos da Terra."
+    var Atv06_Paragrafo = "um pequeno resumo dos movimentos dos corpos celestes."
+    var Atv06_Img = "../assets/Hu/terra.gif"
+    var Atv06_A = "https://www.canva.com/design/DAFA8oBsGt0/DRZ6LaiaSf7Y8ZI3yTCCCQ/edit?utm_content=DAFA8oBsGt0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
 
 
-    var Atv07_Titulo = "Função."
-    var Atv07_Paragrafo = "Para que serve a função."
-    var Atv07_Img = "../assets/Mat/funcao.webp"
-    var Atv07_A = "https://docs.google.com/document/d/1fYYC-7qtaEny7Go9zsAxy2KBt20hX936uzejSZU4Qy0/edit?usp=sharing"
+    var Atv07_Titulo = "Cartografia."
+    var Atv07_Paragrafo = "formas de representação."
+    var Atv07_Img = "../assets/Hu/cartografia.webp"
+    var Atv07_A = "https://docs.google.com/document/d/1Y2uzJ_m4Q3JHumuRx_YAgPs4Gv0wwgHhkJV_XuZdAA4/edit?usp=sharing"
 
 
-    var Atv08_Titulo = "Conjunto."
-    var Atv08_Paragrafo = "Conjuntos simples."
-    var Atv08_Img = "../assets/Mat/conjunto.webp"
-    var Atv08_A = "https://docs.google.com/document/d/1QjRtRBXHLxp7WCG7ljApnJ4wtmj2sjod9jjMsCvi-ro/edit?usp=sharing"
+    var Atv08_Titulo = "camadas da terra."
+    var Atv08_Paragrafo = "todas as camadas da terra."
+    var Atv08_Img = "../assets/Hu/terra.gif"
+    var Atv08_A = "https://docs.google.com/document/d/1hewh0NEryojYtP9c_SNVm37GfVEG4W2rjFKlamtBHG8/edit?usp=sharing"
 
 
-    var Atv09_Titulo = "Exercícios sobre PA."
-    var Atv09_Paragrafo = "atividade sobre PA."
-    var Atv09_Img = "../assets/Mat/PA.webp"
-    var Atv09_A = "https://docs.google.com/document/d/1Q5t1gZ4I2KiwWqfHPQhhhYgspnFYXXROG7KTHrDd33E/edit?usp=sharing"
+    var Atv09_Titulo = "HUMANAS - 11/10 - Idade Média - continuação."
+    var Atv09_Paragrafo = "atividade de idade media."
+    var Atv09_Img = "../assets/Hu/idademedia.webp"
+    var Atv09_A = "https://docs.google.com/document/d/1-pZDhH_oI9Pl0JCi5bQxktifXVlZgwa_zFOYtWXEN_Q/edit?usp=sharing"
 
 
-    var Atv10_Titulo = "Mapa mental."
-    var Atv10_Paragrafo = "Realizar um resumo no caderno sobre Sequência e Lógica, dois exercícios resolvidos Um mapa mental sobre Progressão Aritmética e no caderno dois exercícios resolvidos."
-    var Atv10_Img = "../assets/Mat/pi.webp"
-    var Atv10_A = "https://docs.google.com/document/d/1Zt-OKLV4CxKhe29m3gbn9B5BkO4U8kLPO1rBU3UnIho/edit?usp=sharing"
+    var Atv10_Titulo = "HUMANAS - 28/09 - Povos bárbaros."
+    var Atv10_Paragrafo = "ebook povos bárbaros."
+    var Atv10_Img = "../assets/Hu/barbaros.jpg"
+    var Atv10_A = "https://www.canva.com/design/DAFNg74Gmso/Izf7m15IMgFAOKVs73ColA/view"
 
 
     var Atv11_Titulo = "Mundo senai."
@@ -76,10 +76,10 @@ function Ano(){
     var Atv11_A = "https://www.canva.com/design/DAFPh6aVm_w/j4K8WL9odOvyS2t_sdpV5w/view?utm_content=DAFPh6aVm_w&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu"
 
 
-    var Atv12_Titulo = "Einstein e seu neto."
-    var Atv12_Paragrafo = "uma foto de mim e meu avô usando usando uma fantasia improvisada."
-    var Atv12_Img = "../assets/Mat/einstein.webp"
-    var Atv12_A = "https://docs.google.com/document/d/10sOk9XhWxXXCcjGuF5LwqzA4ZAru7Sl57DHLmn48Yjc/edit?usp=sharing"
+    var Atv12_Titulo = "Feudo."
+    var Atv12_Paragrafo = "Resumo sobre feudo."
+    var Atv12_Img = "../assets/Hu/feudo.webp"
+    var Atv12_A = "https://docs.google.com/document/d/1yt-_wPhDgu_PqKyiaTVvgyPDm9HWPJU9Yj42_fvbCYU/edit"
 
 
     //Atv01
@@ -169,22 +169,22 @@ function Ano(){
     }else if(option == "opcao2"){
 
         var Ano = "2º Ano"
-        var Atv01_Titulo = "Trabalho: Propriedades de Log."
-        var Atv01_Paragrafo = "apresentação sobre log."
-        var Atv01_Img = "../assets/Mat2/log.jpg"
-        var Atv01_A = "https://drive.google.com/file/d/18C72jT41eHx6Kc409YSRSxnI-rehpO76/view?usp=sharing"
+        var Atv01_Titulo = "Formação étnica e a dinâmica populacional do Brasil."
+        var Atv01_Paragrafo = "duplas ou trios e a professora fará a distribuição de temas dispostos na tabela em anexo. A partir dos temas, os grupos devem produzir a releitura da obra artística selecionada (através de fotografia), ficha técnica da obra e da releitura (contendo nome, data, biografia do autor, contexto histórico e importância histórica) e uma breve explicação do tema que acompanha a obra (informações na tabela)"
+        var Atv01_Img = "../assets/Hu2/putin.webp"
+        var Atv01_A = "https://drive.google.com/file/d/107QKdB8w1udujf7y9k4NJT8V8rfpDv9z/view?usp=sharing"
     
     
-        var Atv02_Titulo = "Logaritmo na Acústica."
-        var Atv02_Paragrafo = "calculos de log em lugares do senai."
-        var Atv02_Img = "../assets/Mat2/som.png"
-        var Atv02_A = "https://drive.google.com/file/d/18E9wASXuIWzqTIW03Dt46vB6kdvk3B_o/view?usp=sharing"
+        var Atv02_Titulo = "Povos Pré-Colombianos."
+        var Atv02_Paragrafo = "elaborar 10 questões sobre o conteúdo povos pré-colombianos."
+        var Atv02_Img = "../assets/Hu2/precolombianos.webp"
+        var Atv02_A = "https://docs.google.com/document/d/1pujePT6bC1fyPZOez14wOUxjd-zXaySxp348BBHDHjc/edit?usp=sharing"
     
     
-        var Atv03_Titulo = "Questões de matriz."
-        var Atv03_Paragrafo = "algumas questões de matriz."
-        var Atv03_Img = "../assets/Mat2/matriz.png"
-        var Atv03_A = "https://docs.google.com/document/d/1uUTUf9YcQFxJwlQ3myLbAkwks4u9P_JmgMlDBpv3txM/edit?usp=sharing"
+        var Atv03_Titulo = "questões da revolução francesa."
+        var Atv03_Paragrafo = "questões feitas no genially sobre a revolução francesa."
+        var Atv03_Img = "../assets/Hu2/frfanca.jpeg"
+        var Atv03_A = "https://view.genial.ly/64492f86c0c81a001a742ecb/presentation-basic-dark-presentation"
     
     
         var Atv04_Titulo = "Cosplay."
